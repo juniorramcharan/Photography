@@ -5,11 +5,11 @@
 }
 
 .other{
-    height: 80px;
+    height: 90px;
     background: black;
 }
 .gallery{
-    margin-top: 90px;
+    margin-top: 100px;
 }
 .carousel-item img{
    height: 100vh;
