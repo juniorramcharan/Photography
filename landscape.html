@@ -8,12 +8,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/site.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    
+    <link rel="stylesheet" href="/css/lightbox.css">
     <title>Joel Hinkson Photography</title>
   </head>
   <nav class="navbar other navbar-expand-md navbar-dark fixed-top text-white">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="/imgs/Joel-Hinkson-Script-Watermark.png"  height="70px" alt="" class="d-inline-block align-text-top"></a>
+      <a class="navbar-brand" href="#"><img src="/images/Joel-Hinkson-Script-Watermark.png"  height="70px" alt="" class="d-inline-block align-text-top"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,7 +33,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="landscape.html">Landscape</a></li>
-              <li><a class="dropdown-item" href="#">Portrait</a></li>
+              <li><a class="dropdown-item" href="portraits.html">Portrait</a></li>
               <li><a class="dropdown-item" href="#">Realestate</a></li>
             </ul>
           </li>
@@ -45,51 +46,51 @@
       </div>
     </div>
   </nav>
+   
   <div class="gallery container-fluid mt-10"> 
     <div class="row mt-4">
       <div class=" item col-sm-6 col-md-4 mb-3">
-        <a href="/imgs/ls-img-1.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="/imgs/ls-img-1.jpg" width="100%" height="100%" alt="">
+        <a href="/images/ls-img-1.jpg" data-lightbox="landscape"><img src="/images/ls-img-1.jpg" width="100%" height="100%" alt=""> </a>
+       
+      </div>
+      <div class=" item col-sm-6 col-md-4 mb-3">
+        <a href="/images/ls-img-2.jpg" data-lightbox="landscape">
+          <img src="/images/ls-img-2.jpg" width="100%" height="100%" alt="">
         </a>
       </div>
       <div class=" item col-sm-6 col-md-4 mb-3">
-        <a href="/imgs/ls-img-2.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="/imgs/ls-img-2.jpg" width="100%" height="100%" alt="">
+        <a href="/images/ls-img-3.jpg"  data-lightbox="landscape">
+          <img src="/images/ls-img-3.jpg" width="100%" height="100%" alt="">
         </a>
       </div>
       <div class=" item col-sm-6 col-md-4 mb-3">
-        <a href="/imgs/ls-img-3.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="/imgs/ls-img-3.jpg" width="100%" height="100%" alt="">
+        <a href="/images/ls-img-4.jpg"  data-lightbox="landscape">
+          <img src="/images/ls-img-4.jpg" width="100%" height="100%" alt="">
         </a>
       </div>
       <div class=" item col-sm-6 col-md-4 mb-3">
-        <a href="/imgs/ls-img-4.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="/imgs/ls-img-4.jpg" width="100%" height="100%" alt="">
+        <a href="/images/ls-img-5.jpg" data-lightbox="landscape" data-title="test description">
+          <img src="/images/ls-img-5.jpg" width="100%" height="100%" alt="">
         </a>
       </div>
       <div class=" item col-sm-6 col-md-4 mb-3">
-        <a href="/imgs/ls-img-5.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="/imgs/ls-img-5.jpg" width="100%" height="100%" alt="">
+        <a href="/imaes/ls-img-6.jpg"  data-lightbox="landscape">
+          <img src="/images/ls-img-6.jpg" width="100%" height="100%" alt="">
         </a>
       </div>
       <div class=" item col-sm-6 col-md-4 mb-3">
-        <a href="/imgs/ls-img-6.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="/imgs/ls-img-6.jpg" width="100%" height="100%" alt="">
+        <a href="/images/ls-img-7.jpg" data-lightbox="landscape">
+          <img src="/images/ls-img-7.jpg" width="100%" height="100%" alt="">
         </a>
       </div>
       <div class=" item col-sm-6 col-md-4 mb-3">
-        <a href="/imgs/ls-img-7.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="/imgs/ls-img-7.jpg" width="100%" height="100%" alt="">
+        <a href="/images/ls-img-8.jpg"  data-lightbox="landscape">
+          <img src="/images/ls-img-8.jpg" width="100%" height="100%" alt="">
         </a>
       </div>
       <div class=" item col-sm-6 col-md-4 mb-3">
-        <a href="/imgs/ls-img-8.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="/imgs/ls-img-8.jpg" width="100%" height="100%" alt="">
-        </a>
-      </div>
-      <div class=" item col-sm-6 col-md-4 mb-3">
-        <a href="/imgs/ls-img-9.jpg" class="fancybox" data-fancybox="gallery1">
-          <img src="/imgs/ls-img-9.jpg" width="100%" height="100%" alt="">
+        <a href="/images/ls-img-9.jpg" data-lightbox="landscape">
+          <img src="/images/ls-img-9.jpg" width="100%" height="100%" alt="">
         </a>
       </div>
     </div>
@@ -106,7 +107,8 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+    
+    <script src="/js/lightbox-plus-jquery.min.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

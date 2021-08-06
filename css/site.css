@@ -1,4 +1,6 @@
-
+body{
+    background-color: #f8f6f6;
+}
 .navbar.navtop{
     transition: all 0.8s ease; 
     opacity: 0.9;
@@ -10,6 +12,13 @@
 }
 .gallery{
     margin-top: 100px;
+}
+.gallery .item img{
+     object-fit:cover;
+     max-height: 400px;
+     
+  
+    
 }
 .carousel-item img{
    height: 100vh;
@@ -25,8 +34,8 @@
     
 }
  .item:hover{
-    transform: scale(1.01);
-    filter: brightness(80%);
+    transform: scale(1.02);
+    
  }
  
 
